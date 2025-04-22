@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dora the Explorer Fun Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <center>
+    
+        <h1>✨ Dora the Explorer ✨</h1>
+        <ul>
+            <li>
+                <h2 id="videoBubble" class="bubble">🎬 Video Dora</h2>
+                <hr>
+                <video id="video" controls poster="assets/dora1.jpg" class="media">
+                    <source src="assets/Dora-Video.mp4" type="video/mp4">
+                    <track kind="captions" src="assets/Dora-Video-Captions.vtt" srclang="en" label="English">
+                    Your browser does not support the video tag.
+                </video>
+            </li>
+            <li>
+                <h2 id="audioBubble" class="bubble">Audio Dora</h2>
+                <hr>
+                <audio id="audio" controls>
+                    <source src="assets/Dora-Audio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li>
+                <h2 id="gambarBubble" class="bubble">Gambar Dora</h2>
+                <hr>
+                <div class="gambar-wrapper">
+                    <img src="assets/Dora1.jpg" alt="Dora Smile" class="gambar" id="gambar1">
+                    <img src="assets/Dora2.jpg" alt="Dora Adventure" class="gambar" id="gambar2">
+                </div>
+            </li>
+        </ul>
+    
+    </center>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
